@@ -18,7 +18,7 @@ It is
 * Not bullet proof
 * Not aimed at being an exposed service
 
-It bundles _Twitter_'s [Bootstrap](http://getbootstrap.com/) _CSS_es, feel free to use your own.
+It bundles _Twitter_'s [Bootstrap](http://getbootstrap.com/) _CSS_, feel free to use your own.
 
 **iWi** only needs:
 
