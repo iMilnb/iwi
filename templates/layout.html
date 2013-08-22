@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>iMil's mini Markdown Wiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="{{ frontpath }}{{ url_for('static', filename='bootstrap.min.css') }}" rel="stylesheet" media="screen">
+    <link href="{{ frontpath }}{{ url_for('static', filename='bootstrap-theme.min.css') }}" rel="stylesheet" media="screen">
+    <link href="{{ frontpath }}{{ url_for('static', filename='iwi.css') }}" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+    {{ content|safe }}
+    </div>
+  </body>
+</html>
