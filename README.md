@@ -10,7 +10,7 @@
 
 It bundles [Twitter Bootstrap][4] so the articles do not look like _raw_ 1990-ish _HTML_, but are nicely styled instead.
 
-*iWi* installation is quite straightforward, just `git clone` the project and make the application available through some [WSGI][5]. As an example, here's my [uWSGI][6] `.ini` file:
+**iWi** installation is quite straightforward, just `git clone` the project and make the application available through some [WSGI][5]. As an example, here's my [uWSGI][6] `.ini` file:
 
 ```
 http = :9090
